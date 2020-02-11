@@ -1,0 +1,19 @@
+// Place all the styles related to the articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.container {
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+.container-form {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.align {
+  text-align: right;
+}

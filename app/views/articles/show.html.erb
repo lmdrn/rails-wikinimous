@@ -1,0 +1,18 @@
+ <div class="container">
+  <div class="align">
+    <%= link_to articles_path do %>
+    <p><i class="far fa-hand-point-left" style="margin: 10px;"></i>BACK TO LIST</p>
+    <% end %>
+
+
+  </div>
+  <%= link_to edit_article_path do %>
+  <p><i class="far fa-edit" style="margin-right: 10px;"></i></p>
+  <i class="fas fa-trash-alt"></i>
+  <% end %>
+
+  <h2><%= @article.title %></h2>
+  <p><%= @article.content %></p>
+</div>
+
+

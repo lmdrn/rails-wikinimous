@@ -1,0 +1,25 @@
+<div class="container-form">
+  <div class="align">
+    <%= link_to articles_path do %>
+    <p><i class="far fa-hand-point-left" style="margin: 10px;"></i>BACK TO LIST</p>
+    <% end %>
+  </div>
+  <h1>My Article</h1>
+
+
+  <div class=form>
+  <%= form_for(@article) do |f| %>
+    <div class="form-group">
+      <%= f.label :article_title %>
+      <%= f.text_field :title, class: 'form-control' %>
+    </div>
+
+    <div class="form-group">
+      <%= f.label :something_to_say %>
+      <%= f.text_field :content, class: 'form-control' %>
+    </div>
+
+    <%= f.submit class: 'btn btn-primary' %>
+  <% end %>
+  </div>
+</div>
